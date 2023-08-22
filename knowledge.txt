@@ -1,0 +1,86 @@
+/video-call-app
+|-- /public
+|   |-- /css
+|   |   |-- main.css
+|   |   |-- ...
+|   |-- /js
+|   |   |-- main.js
+|   |   |-- ...
+|   |-- /assets
+|   |   |-- /images
+|   |   |   |-- ...
+|-- /src
+|   |-- /routes
+|   |   |-- index.js
+|   |   |-- ...
+|   |-- /controllers
+|   |   |-- callController.js
+|   |   |-- ...
+|   |-- /models
+|   |   |-- userModel.js
+|   |   |-- ...
+|   |-- /utils
+|   |   |-- webrtcHelper.js
+|   |   |-- ...
+|-- /views
+|   |-- dashboard.ejs
+|   |-- callScreen.ejs
+|   |-- ...
+|-- server.js
+|-- package.json
+
+
+High Priority:
++Set Up Basic Server:
+
+Initialize a new Node.js project with Express.
+Set up the basic server in server.js.
+User Authentication:
+
+++Implement user registration and login functionality.
+Set up routes, controllers, and models for user management.
+
+Basic Call Functionality with WebRTC:
+
+Implement one-to-one video call functionality using WebRTC.
+Set up STUN/TURN servers (you can use third-party services for this initially).
+
+Define routes and controllers for call initiation, handling, and termination.
+UI for Home/Dashboard:
+
+Design the main dashboard using HTML/CSS.
+Implement frontend logic using vanilla JS for user interactions.
+UI for Call Screen:
+
+Design the video call screen with necessary controls.
+Implement logic for mute, video on/off, and end call functionalities.
+Medium Priority:
+Group Call Functionality:
+
+Extend the WebRTC setup to support multi-participant calls.
+Implement UI changes to accommodate multiple video feeds.
+Screen Sharing:
+
+Implement the screen sharing feature in the call screen.
+Design UI elements to indicate screen sharing mode.
+Text Chat During Call:
+
+Design and implement the chat panel UI.
+Set up backend routes and controllers for real-time messaging during calls.
+Call Recording:
+
+Implement call recording functionality.
+Design UI elements for starting, stopping, and indicating recording.
+Low Priority:
+Settings & Preferences:
+
+Design the settings interface.
+Implement backend logic to save and retrieve user settings.
+Joining via Link/ID:
+
+Implement functionality to generate unique call links or IDs.
+Design UI for joining a call using a link or ID.
+MoM & Transcription (if applicable):
+
+Design UI for post-call MoM review.
+Integrate any third-party services or implement backend logic for transcription.
